@@ -1,0 +1,254 @@
+@font-face {
+    font-family: tiempose;
+    src: url(/assets/test-tiempos-headline-medium-italic.woff2);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+header {
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.banner-title {
+    font-family: tiempose;
+    font-size: 80px;
+    color: #271E1B;
+}
+
+.banner-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #121F3E;
+}
+
+.second-color {
+    font-family: tiempose;
+    font-size: 80px;
+    color: #173457;
+}
+
+.rectangle {
+    background-color: #DFC462;
+    border-radius: 15px;
+    width: 507px;
+    height: 35px;
+    margin-top: 58px;
+}
+
+.banner-img {
+    width: 350px;
+    margin-left: 80px;
+}
+
+
+
+.about {
+    font-size: 12px;
+    color: #8D98AF;
+    width: 350px;
+    display: inline-block;
+    text-align: right;
+}
+
+.description {
+    text-align: right;
+}
+
+.buttons{
+    margin-left: 170px;
+    margin-right: 70px;
+}
+
+.arrow-right {
+    background-color: #DFC462;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.arrow-right:hover{
+background-color: white;
+}
+
+.arrow {
+    width: 1em;
+    height: 1em;
+}
+
+.custom-btn {
+    background-color: #173457;
+    font-size: 10px;
+    width: 220px;
+}
+
+.video {
+    background-image: url('/assets/video.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;  
+    text-align: center;
+    padding: 250px;
+}
+
+.play{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    background-color: #FFFFFF69;
+}
+
+.play:hover{
+    background-color: white;
+}
+
+.title{
+    font-family: tiempose;
+    font-size: 80px;
+    color: #271E1B;
+}
+
+.title1{
+    font-family: tiempose;
+    font-size: 50px;
+    color: #271E1B;
+}
+
+.subtitle{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #121F3E;
+}
+.number{
+    width: 125px;
+    height: 120px;
+    color: white;
+    background-color: #173457;
+    border: 0px;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.number:hover{
+    border-radius: 85px;
+}
+
+.logo{
+    margin-top: 66px;
+}
+
+.front{
+    font-family: Test Tiempos Headline;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.image{
+    border-radius: 10%;
+}
+
+.textColor{
+    color:#121F3E;
+}
+
+.spacing{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .client{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+} */
+
+
+@media (max-width: 1920px) {
+
+
+    .img-fluid {
+        width: 80px;
+        height: 40px;
+    }
+
+
+}
+
+@media (max-width: 430px) {
+    .img-fluid {
+        width: 50px;
+        height: 25px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 60px;
+    }
+
+    header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .banner-subtitle {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .second-color {
+        font-size: 60px;
+    }
+
+    .rectangle {
+        width: 380px;
+        margin-top: 40px;
+        height: 30px;
+    }
+
+    .banner-img {
+        width: 200px;
+        margin-left: 0px;
+    }
+
+    .description {
+        text-align: center;
+    }
+    .buttons{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .video {
+        padding: 83px;
+    }
+    .play{
+        height: 100px;
+        width: 100px;
+        padding-left: 15px;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .title1{
+        font-size: 20px;
+    }
+    .subtitle{
+        font-size: 15px;
+    }
+    .number{
+        width: 63px;
+        height: 60px;
+        border: 0px;
+        border-radius: 15px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+}
