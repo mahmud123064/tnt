@@ -104,9 +104,10 @@ background-color: white;
     background-color: white;
 }
 
+
 .title{
     font-family: tiempose;
-    font-size: 80px;
+    font-size: 72px;
     color: #271E1B;
 }
 
@@ -161,6 +162,28 @@ background-color: white;
     display: flex;
     justify-content: space-between;
 }
+
+.bottom-first {
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+    font-style: italic;
+}
+
+.bottom-second {
+    font-family: tiempose;
+    font-size: 80px;
+    color: #DFC462;
+}
+
+.bottom-third {
+    font-family: tiempose;
+    font-size: 35px;
+    color: #fff;
+}
+
+
 
 /* .client{
     font-style: italic;
@@ -251,4 +274,27 @@ background-color: white;
         font-weight: 600;
     }
     
+    .bottom-first {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    
+
+
+
+
+
+
+
+    .bottom-second {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .bottom-third {
+        font-family: tiempose;
+        font-size: 20px;
+        color: #fff;
+    }
 }

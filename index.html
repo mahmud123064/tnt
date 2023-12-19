@@ -86,7 +86,7 @@
                 <div class="custom-btn d-flex align-items-center rounded-pill text-white p-2">
                     <p class="flex-grow-1 text-center mb-0 fw-medium">wei-de-chang-1997@hotmail.com</p>
 
-                    <button class="arrow-right rounded-circle ms-2 border-0">
+                    <button class="arrow-right rounded-circle ms-2 border-0 ">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M8.29297 0.294024C8.48047 0.106581 8.73474 0.00128174 8.99986 0.00128174C9.26499 0.00128174 9.51926 0.106581 9.70676 0.294024L15.7059 6.29312C15.8933 6.48062 15.9986 6.73489 15.9986 7.00001C15.9986 7.26514 15.8933 7.51941 15.7059 7.70691L9.70676 13.706C9.51818 13.8881 9.26562 13.9889 9.00346 13.9866C8.7413 13.9844 8.49053 13.8792 8.30515 13.6938C8.11977 13.5084 8.01462 13.2577 8.01234 12.9955C8.01006 12.7334 8.11084 12.4808 8.29297 12.2922L12.5853 7.99986L1.00107 7.99986C0.735893 7.99986 0.481578 7.89452 0.29407 7.70701C0.106562 7.5195 0.0012207 7.26519 0.0012207 7.00001C0.0012207 6.73484 0.106562 6.48052 0.29407 6.29301C0.481578 6.1055 0.735893 6.00016 1.00107 6.00016L12.5853 6.00016L8.29297 1.70781C8.10553 1.52031 8.00023 1.26604 8.00023 1.00092C8.00023 0.735793 8.10553 0.481523 8.29297 0.294024Z"
@@ -99,12 +99,17 @@
 
         <!-- Video section -->
         <section class="mt-lg-5 mt-3">
-            <div class="video">
-                <button class="play rounded-circle border-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 107 124" fill="none">
-                        <path d="M107 62L0.499994 123.488L0.5 0.512191L107 62Z" fill="#173457" />
-                    </svg>
-                </button>
+           
+                <div class="video absolute">
+                    <button class="play rounded-circle border-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 107 124"
+                            fill="none">
+                            <path d="M107 62L0.499994 123.488L0.5 0.512191L107 62Z" fill="#173457" />
+                        </svg>
+                    </button>
+                </div>
+            <div style="background-color: rgba(223, 196, 98, 0.21); width: 100px;">
+
             </div>
         </section>
 
@@ -152,31 +157,31 @@
                 <div class="row">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
-                            <div class="card ">
-                                <img src="./assets/Rectangle 7.png" alt="" class="card-image-top rounded">
+                            <div class="card rounded-lg">
+                                <img src="./assets/slider-1.png" alt="" class="card-image-top rounded-lg" style="width: 280px; height: 270px; overflow: hidden;">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" card rounded">
+                                <img src="./assets/slider-2.png" alt="" class="card-image-top " style="width: 280px; height: 270px; overflow: hidden;">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" card">
+                                <img src="./assets/slider-3.png" alt="" class="card-image-top rounded " style="width: 450px; height: 270px; overflow: hidden;">
                             </div>
                         </div>
                         <div class="item">
                             <div class="card ">
-                                <img src="./assets/Rectangle 15.png" alt="" class="card-image-top rounded">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card ">
-                                <img src="./assets/Rectangle 10.png" alt="" class="card-image-top rounded">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card ">
-                                <img src="./assets/Rectangle 8 (2).png" alt="" class="card-image-top rounded">
+                                <img src="./assets/slider-4.png" alt="" class="card-image-top rounded" style="width: 450px; height: 270px; overflow: hidden;">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Card section -->
 
-        <!--  -->
         <section>
             <div
                 class="container d-lg-flex flex-column flex-lg-row justify-content-center align-items-center gap-lg-5 mx-auto">
@@ -327,6 +332,7 @@
 
         </section>
 
+        <!-- Client section -->
 
         <section class="mb-4">
             <div class="container-fluid container-lg">
@@ -406,20 +412,23 @@
 
         <!--  -->
 
-        <section style="background-color: #173457; " class="mb-5 py-5">
-            <div class="container text-lg-left mx-auto >
-                <h1 " style="color: #FFF; font-family: 'Inter', sans-serif;" >Ready to</h1>
-                <h1  style="color: #DFC462; font-family: tiempose; font-size: 50px;">Revolutionize your <br> networking game?</h1>
+       <section class="mb-5"
+            style="background-color: #173457; display: flex; justify-content: center; align-items: center;">
+            <div class="py-5">
+                <h3 class="bottom-first">READY TO</h3>
+                <h1 class="bottom-second">Revolutionize your <br> networking game?</h1>
+                <div class="d-lg-flex flex-lg-row flex-column gap-3 mt-4">
+                    <div class="d-flex flex-row align-items-center justify-content-center mx-auto gap-3">
+                        <h4 class="bottom-third mb-0">Get started with</h4>
+                        <img src="./assets/logo_white.png" alt="logo" style="width: 70px; ">
+                    </div>
+                    <div
+                        class="custom-btn d-flex align-items-center justify-content-center mx-auto rounded-pill text-white p-2 border border-1 mt-lg-0 mt-3">
+                        <p class="flex-grow-1 text-center mb-0 fw-medium">wei-de-chang-1997@hotmail.com</p>
 
-                <div class="d-flex gap-2>
-                    <h1 style="color: #FFF; font-size:25px">Get started with </h1>
-                    <img src="./assets/logo_white.png" alt="logo" style="width: 56px; ">
-
-                    <div class="custom-btn d-flex align-items-center rounded-pill text-white p-2 border border-1>
-                        <p class="flex-grow-1 text-center mb-0 fw-medium" style="color: #FFF;">wei-de-chang-1997@hotmail.com</p>
-    
                         <button class="arrow-right rounded-circle ms-2 border-0">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14"
+                                fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M8.29297 0.294024C8.48047 0.106581 8.73474 0.00128174 8.99986 0.00128174C9.26499 0.00128174 9.51926 0.106581 9.70676 0.294024L15.7059 6.29312C15.8933 6.48062 15.9986 6.73489 15.9986 7.00001C15.9986 7.26514 15.8933 7.51941 15.7059 7.70691L9.70676 13.706C9.51818 13.8881 9.26562 13.9889 9.00346 13.9866C8.7413 13.9844 8.49053 13.8792 8.30515 13.6938C8.11977 13.5084 8.01462 13.2577 8.01234 12.9955C8.01006 12.7334 8.11084 12.4808 8.29297 12.2922L12.5853 7.99986L1.00107 7.99986C0.735893 7.99986 0.481578 7.89452 0.29407 7.70701C0.106562 7.5195 0.0012207 7.26519 0.0012207 7.00001C0.0012207 6.73484 0.106562 6.48052 0.29407 6.29301C0.481578 6.1055 0.735893 6.00016 1.00107 6.00016L12.5853 6.00016L8.29297 1.70781C8.10553 1.52031 8.00023 1.26604 8.00023 1.00092C8.00023 0.735793 8.10553 0.481523 8.29297 0.294024Z"
                                     fill="#121F3E" />
@@ -427,7 +436,6 @@
                         </button>
                     </div>
                 </div>
-
             </div>
         </section>
 
