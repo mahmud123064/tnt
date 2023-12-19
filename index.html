@@ -35,7 +35,6 @@
 
 <body>
 
-
     <header>
         <nav>
             <div class="container text-center pt-lg-5 pt-3">
@@ -50,7 +49,7 @@
         <div class="container d-flex flex-lg-row flex-column align-items-center justify-content-center gap-2">
             <h1 class="banner-title">Your</h1>
             <div>
-                <div class="rectangle position-absolute"></div>
+                <div class="rectangle position-absolute" style="overflow: hidden; margin-right: 0px; margin-left: 8px;"></div>
                 <h1 class="second-color position-relative mx-4">Professional</h1>
             </div>
         </div>
@@ -62,6 +61,7 @@
         </div>
     </header>
     <main>
+        <!-- Banner -->
         <section>
             <div class="container description">
                 <p class="about text-lg-end text-center">
@@ -83,7 +83,7 @@
                     <p class="mb-0">(Selected Work)</p>
                 </div>
 
-                <div class="custom-btn d-flex align-items-center rounded-pill text-white p-2">
+                <div class="custom-btn d-flex align-items-center rounded-pill text-white p-2" style="margin-right: 44px;">
                     <p class="flex-grow-1 text-center mb-0 fw-medium">wei-de-chang-1997@hotmail.com</p>
 
                     <button class="arrow-right rounded-circle ms-2 border-0 ">
@@ -98,18 +98,13 @@
         </section>
 
         <!-- Video section -->
-        <section class="mt-lg-5 mt-3">
-           
-                <div class="video absolute">
-                    <button class="play rounded-circle border-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 107 124"
-                            fill="none">
-                            <path d="M107 62L0.499994 123.488L0.5 0.512191L107 62Z" fill="#173457" />
-                        </svg>
-                    </button>
-                </div>
-            <div style="background-color: rgba(223, 196, 98, 0.21); width: 100px;">
-
+        <section class="mt-lg-5 mt-3" style="background: linear-gradient(to top, rgba(223, 196, 98, 0.21) 50%, transparent 50%);">
+            <div class="video absolute">
+                <button class="play rounded-circle border-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 107 124" fill="none">
+                        <path d="M107 62L0.499994 123.488L0.5 0.512191L107 62Z" fill="#173457" />
+                    </svg>
+                </button>
             </div>
         </section>
 
@@ -151,35 +146,35 @@
         </section>
 
         <!-- Slider -->
-
         <section>
-            <div class="container-fluid my-5">
+            <div class=" my-5 overflow-hidden " >
                 <div class="row">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
-                            <div class="card rounded-lg">
-                                <img src="./assets/slider-1.png" alt="" class="card-image-top rounded-lg" style="width: 280px; height: 270px; overflow: hidden;">
+                            <div class="card rounded-5">
+                                <img src="./assets/Rectangle 12.png" alt="" class="card-image-top slider_image" >
                             </div>
                         </div>
                         <div class="item">
-                            <div class=" card rounded">
-                                <img src="./assets/slider-2.png" alt="" class="card-image-top " style="width: 280px; height: 270px; overflow: hidden;">
+                            <div class=" card rounded-5">
+                                <img src="./assets/slider-2.png" alt="" class="card-image-top slider-image1">
                             </div>
                         </div>
                         <div class="item">
-                            <div class=" card">
-                                <img src="./assets/slider-3.png" alt="" class="card-image-top rounded " style="width: 450px; height: 270px; overflow: hidden;">
+                            <div class=" card rounded-5">
+                                <img src="./assets/slider-3.png" alt="" class="card-image-top slider_image" >
                             </div>
                         </div>
                         <div class="item">
-                            <div class="card ">
-                                <img src="./assets/slider-4.png" alt="" class="card-image-top rounded" style="width: 450px; height: 270px; overflow: hidden;">
+                            <div class="card rounded-5">
+                                <img src="./assets/Rectangle 8 (2).png" alt="" class="card-image-top slider_image" >
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- Card section -->
 
         <section>
@@ -319,9 +314,9 @@
             <hr class="container">
 
             <!-- Featured card -->
-            <div class="container d-flex flex-lg-row flex-column-reverse justify-content-between gap-lg-5 gap-0 mt-5">
-                <div class="mt-lg-0 mt-4">
-                    <img class="w-100" src="/assets/Rectangle 12.png" alt="">
+            <div class="container ">
+                <div class="mt-lg-0 mt-4 justify-content-center">
+                    <img class="w-75 mx-auto d-block" src="/assets/Rectangle 8 (2).png" alt="">
                     <div class="d-lg-flex flex-lg-row justify-content-between align-items-center gap-lg-5 mx-auto mt-3">
                         <h1 class="title1 mx-auto"> Effortlessly stunning digital designs</h1>
                     </div>
@@ -335,7 +330,7 @@
         <!-- Client section -->
 
         <section class="mb-4">
-            <div class="container-fluid container-lg">
+            <div class="container container-lg">
                 <h3 class=" client mb-4  title">We are Outstanding</h3>
 
                 <!-- col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 -->
@@ -418,7 +413,7 @@
                 <h3 class="bottom-first">READY TO</h3>
                 <h1 class="bottom-second">Revolutionize your <br> networking game?</h1>
                 <div class="d-lg-flex flex-lg-row flex-column gap-3 mt-4">
-                    <div class="d-flex flex-row align-items-center justify-content-center mx-auto gap-3">
+                    <div class="d-flex flex-row align-items-center justify-content-center mx-auto gap-4">
                         <h4 class="bottom-third mb-0">Get started with</h4>
                         <img src="./assets/logo_white.png" alt="logo" style="width: 70px; ">
                     </div>
@@ -498,9 +493,10 @@
             loop: true,
             margin: 10,
             nav: true,
+            autoWidth:true,
             responsive: {
                 0: {
-                    items: 3
+                    items: 4
                 },
                 600: {
                     items: 4

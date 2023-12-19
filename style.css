@@ -33,7 +33,7 @@ header {
 .rectangle {
     background-color: #DFC462;
     border-radius: 15px;
-    width: 507px;
+    width: 490px;
     height: 35px;
     margin-top: 58px;
 }
@@ -42,8 +42,6 @@ header {
     width: 350px;
     margin-left: 80px;
 }
-
-
 
 .about {
     font-size: 12px;
@@ -183,13 +181,16 @@ background-color: white;
     color: #fff;
 }
 
+.slider_image{
+    width: 450px;
+    height: 270px;
+    overflow: hidden;
+}
 
-
-/* .client{
-    font-style: italic;
-    font-weight: 700;
-    font-size: 36px;
-} */
+.slider-image1{
+    height: 270px;
+    overflow: hidden;
+}
 
 
 @media (max-width: 1920px) {
@@ -212,7 +213,7 @@ background-color: white;
     }
 
     .banner-title {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     header {
@@ -226,13 +227,14 @@ background-color: white;
     }
 
     .second-color {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .rectangle {
-        width: 380px;
+        width: 300px;
         margin-top: 40px;
         height: 30px;
+        margin-left: 10px;
     }
 
     .banner-img {
@@ -257,7 +259,7 @@ background-color: white;
         padding-left: 15px;
     }
     .title{
-        font-size: 40px;
+        font-size: 36px;
     }
     .title1{
         font-size: 20px;
@@ -280,13 +282,16 @@ background-color: white;
     }
 
     
-
-
-
-
-
-
-
+    .slider_image{
+        width: 300px;
+        height: 130px;
+      
+    }
+    
+    .slider-image1{
+        height: 130px;
+    }
+    
     .bottom-second {
         font-size: 40px;
         text-align: center;
@@ -297,4 +302,6 @@ background-color: white;
         font-size: 20px;
         color: #fff;
     }
+
+   
 }
