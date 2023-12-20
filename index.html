@@ -49,7 +49,8 @@
         <div class="container d-flex flex-lg-row flex-column align-items-center justify-content-center gap-2">
             <h1 class="banner-title">Your</h1>
             <div>
-                <div class="rectangle position-absolute" style="overflow: hidden; margin-right: 0px; margin-left: 8px;"></div>
+                <div class="rectangle position-absolute" style="overflow: hidden; margin-right: 0px; margin-left: 8px;">
+                </div>
                 <h1 class="second-color position-relative mx-4">Professional</h1>
             </div>
         </div>
@@ -83,7 +84,8 @@
                     <p class="mb-0">(Selected Work)</p>
                 </div>
 
-                <div class="custom-btn d-flex align-items-center rounded-pill text-white p-2" style="margin-right: 44px;">
+                <div class="custom-btn d-flex align-items-center rounded-pill text-white p-2"
+                    style="margin-right: 44px;">
                     <p class="flex-grow-1 text-center mb-0 fw-medium">wei-de-chang-1997@hotmail.com</p>
 
                     <button class="arrow-right rounded-circle ms-2 border-0 ">
@@ -98,14 +100,19 @@
         </section>
 
         <!-- Video section -->
-        <section class="mt-lg-5 mt-3" style="background: linear-gradient(to top, rgba(223, 196, 98, 0.21) 50%, transparent 50%);">
-            <div class="video absolute">
-                <button class="play rounded-circle border-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 107 124" fill="none">
-                        <path d="M107 62L0.499994 123.488L0.5 0.512191L107 62Z" fill="#173457" />
-                    </svg>
-                </button>
+        <section class="mt-lg-5 mt-3"
+            style="background: linear-gradient(to top, rgba(223, 196, 98, 0.21) 50%, transparent 50%);">
+           
+            <div class=" d-flex justify-content-center mx-auto ">
+                
+
+                    <video class="video-size rounded-5 mb-3"  controls>
+                        <source src="./assets/Dummy Video.mp4" type="video/mp4">
+                     
+                       
+                      </video>
             </div>
+           
         </section>
 
         <!-- Marquee section -->
@@ -147,12 +154,12 @@
 
         <!-- Slider -->
         <section>
-            <div class=" my-5 overflow-hidden " >
+            <div class=" my-5 overflow-hidden ">
                 <div class="row">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
                             <div class="card rounded-5">
-                                <img src="./assets/Rectangle 12.png" alt="" class="card-image-top slider_image" >
+                                <img src="./assets/Rectangle 12.png" alt="" class="card-image-top slider_image">
                             </div>
                         </div>
                         <div class="item">
@@ -162,18 +169,21 @@
                         </div>
                         <div class="item">
                             <div class=" card rounded-5">
-                                <img src="./assets/slider-3.png" alt="" class="card-image-top slider_image" >
+                                <img src="./assets/slider-3.png" alt="" class="card-image-top slider_image">
                             </div>
                         </div>
                         <div class="item">
                             <div class="card rounded-5">
-                                <img src="./assets/Rectangle 8 (2).png" alt="" class="card-image-top slider_image" >
+                                <img src="./assets/Rectangle 8 (2).png" alt="" class="card-image-top slider_image">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        
 
         <!-- Card section -->
 
@@ -407,7 +417,7 @@
 
         <!--  -->
 
-       <section class="mb-5"
+        <section class="mb-5"
             style="background-color: #173457; display: flex; justify-content: center; align-items: center;">
             <div class="py-5">
                 <h3 class="bottom-first">READY TO</h3>
@@ -493,7 +503,11 @@
             loop: true,
             margin: 10,
             nav: true,
-            autoWidth:true,
+            autoWidth: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            center:true,
             responsive: {
                 0: {
                     items: 4
@@ -506,6 +520,7 @@
                 }
             }
         })
+
     </script>
 
 
